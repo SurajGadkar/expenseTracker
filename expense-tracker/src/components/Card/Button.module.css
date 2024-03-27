@@ -1,0 +1,31 @@
+.main__container {
+  width: 168px;
+  height: 38px;
+  border: 0.5px solid lightgreen;
+  border-radius: 0.8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font: bold;
+  color: var(--color-white);
+  font-size: 1.1rem;
+}
+
+.income {
+  background: var(--color-income-bg);
+}
+
+.expense {
+  background: var(--color-expense-bg);
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+}
+
+@media screen and (min-width: 900px) {
+}
