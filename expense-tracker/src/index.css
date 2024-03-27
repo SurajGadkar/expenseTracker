@@ -8,8 +8,10 @@
     #ff3838 100%
   );
 
-  --color-background-primary: ;
-  --color-background-secondary: ;
+  --color-background-primary: #9b9b9b;
+  --color-background-secondary: #626262;
+  --color-background: #3b3b3b;
+
   --color-primary: ;
   --color-white: #fff;
   --color-black: #111;

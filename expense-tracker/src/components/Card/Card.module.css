@@ -1,0 +1,28 @@
+.main__container {
+  height: 181px;
+  width: 355px;
+  border-radius: 0.8rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background: var(--color-background-primary);
+
+  font-size: 1.6rem;
+  color: var(--color-white);
+  margin: 2px 4px;
+}
+
+.balance {
+  font-weight: bold;
+}
+
+.wallet {
+  color: #9dff5b;
+}
+
+.expense {
+  color: #f4bb4a;
+}
