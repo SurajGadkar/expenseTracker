@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../Card/Button";
 import Card from "../Card/Card";
 import ExpenseByCategory from "../PieChart/ExpenseByCategory";
+import ExpenseTracker from "../ExpenseTracker/ExpenseTracker";
 
 function Test() {
   const data02 = [
@@ -10,18 +11,8 @@ function Test() {
     { name: "Travel", value: 1398 },
   ];
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        border: "1px solid black",
-        margin: "6px 8px",
-      }}
-    >
-      <Card type="wallet" title="Wallet balance" balance={5000} />
-      <Card type="expense" title="Expenses" balance={300} />
-      <ExpenseByCategory data={data02} />
+    <div>
+      <ExpenseTracker />
     </div>
   );
 }

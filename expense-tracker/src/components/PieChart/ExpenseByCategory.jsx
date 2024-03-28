@@ -17,15 +17,16 @@ function ExpenseByCategory({ data }) {
     return { ...item, value: Math.round((item.value / total) * 100) };
   });
 
-  console.log(data, percentData);
+  //console.log(data, percentData);
 
   return (
     <>
-      <PieChart width={400} height={225}>
+      <PieChart width={400} height={260}>
         <Pie
           data={percentData}
           dataKey="value"
           cx="50%"
+          isAnimationActive={true}
           cy="50%"
           innerRadius={0}
           outerRadius={100}
