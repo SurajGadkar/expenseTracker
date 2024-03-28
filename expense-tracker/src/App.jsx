@@ -1,13 +1,15 @@
 import { useState } from "react";
-
 import Test from "./components/Test/Test";
 import "./App.css";
+import ExpenseTracker from "./components/ExpenseTracker/ExpenseTracker";
+import Analytics from "./components/Analytics/Analytics";
 
 function App() {
   return (
-    <>
-      <Test /> 
-    </>
+    <div>
+      <ExpenseTracker />
+      <Analytics />
+    </div>
   );
 }
 
